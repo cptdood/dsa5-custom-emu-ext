@@ -1,0 +1,62 @@
+/** COMMON **/
+h1, h2, h3, h4, a {
+    font-family: inherit !important;
+}
+
+/** FORMS **/
+
+.window-app .window-header {
+    background-image: none !important;
+}
+
+a.header-button.close i {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+/* combat dialog */
+div.form-group {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+div.form-group input,
+div.form-group select {
+    height: 25px !important;
+    line-height: 25px !important;
+}
+
+/** CHAT **/
+
+/* header */
+#chat-log > li.chat-message.message > header {
+    background-image: none;
+    background-color: rgba(var(--color-background), 1) !important;
+    border-radius: inherit !important;
+    /*padding-left: 13px !important;*/
+}
+#chat-log > li.chat-message.message > header > h4.message-sender {
+    font-size: var(--emu-font-size-md) !important;
+    color: rgba(var(--color-text-lightest), 1) !important;
+}
+
+/* message */
+#chat-log > li.chat-message.message > div.message-content {
+    margin: 0px 10px 10px 10px !important;
+}
+
+/* dice tray */
+#chat > section > div.dice-tray__buttons.flexrow {
+    margin: 0px 20px 10px 20px !important;
+}
+
+/** RIGHT SIDEBAR **/
+
+div.header-actions.action-buttons button {
+    font-size: var(--emu-font-size-sm) !important;
+}
+
+/** ACTION BAR **/
+
+#hotbar > div.tokenQuickHot.expanded > ul > li {
+    margin-right: 5px;
+}

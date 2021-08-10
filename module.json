@@ -1,0 +1,20 @@
+{
+    "name": "dsa-custom-emu-ext",
+    "title": "DSA Custom EMU Extension",
+    "description": "DSA extension for Ernie's modern UI",
+    "version": "0.0.1",
+    "minimumCoreVersion": "0.5.0",
+    "dependencies": [
+        {
+          "name": "ernies-modern-layout",
+          "manifest": "https://raw.githubusercontent.com/ernieayala/ernies-modern-layout/master/module.json"
+        },
+        {
+          "name": "dsa5",
+          "type": "system"
+        }
+    ],
+    "styles": [
+        "./styles/dsa-custom.css"
+    ]
+}
