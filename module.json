@@ -16,5 +16,8 @@
     ],
     "styles": [
         "./styles/dsa-custom.css"
-    ]
+    ],
+    "url": "https://github.com/cptdood/dsa-custom-emu-ext",
+    "manifest": "https://raw.githubusercontent.com/cptdood/dsa-custom-emu-ext/master/module.json",
+    "download": "https://github.com/cptdood/dsa-custom-emu-ext/releases/download/0.0.1/dsa-custom-emu-ext-0.0.1.zip"
 }
